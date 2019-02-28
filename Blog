@@ -1,0 +1,15 @@
+February 25:
+After the first meeting with my coach Lori King, I started out learning Django with the Djangogirls tutorial. For this, I installed PaizaCloud and installed a virtual environment. The tutorial is interesting, though obviously the audience is meant to be of a younger age. Anyway, my goal was to work through the tutorial this week and also look at an HTML tutorial that codebar.io has on its website.
+
+February 27:
+The initial plan proved to be a bit too optimistic. The tutorial turned out to be a bit outdated: a newer version of Django caused problems. I decided to switch to a tutorial called Django-Marcador, aimed at creating an app to manage bookmarks. Interesting and I achieved some things (getting the app running on the development server, being able to use it and make changes online etc.). However, further down into the code (building the frontend, configuring URLs, views and templates) it turned out that also this tutorial used an older version of Django and there were too many conflicts in the code.
+
+LESSONS LEARNED: Don't start any tuturials without being absolutely clear a) what the current version of the software used in the tutorial is, and b) whether it is using the right/latest version of Python 3.
+
+February 28:
+The obvious choice: tutorials from Django. The tutorial guides you through the creation of a basic poll application:
+
+- a public site that lets people view polls and vote in them.
+- an admin site that lets the administrator add, change and delete polls.
+
+There is also an advanced tutorial (perhaps later?). To start with, I upgraded to the latest version of Python (from 3.7 to 3.72) and the latest version of Django (2.1). After this, I deleted the Django repo I created on GitHub and created a new repo called Django. This means ALL of my work on Django is gone ... but I do not want to get confused with the old projects. I will keep the old project files locally.
